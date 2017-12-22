@@ -1,0 +1,70 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.wdtx.littlebell.activity.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/id_ll_login"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/style_4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="账号："/>
+
+        <EditText
+            android:id="@+id/id_et_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="密码："/>
+
+        <EditText
+            android:id="@+id/id_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="@color/cyan_a_100"
+            android:id="@+id/id_btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/id_tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_light"/>
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/id_ll_login"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+</RelativeLayout>

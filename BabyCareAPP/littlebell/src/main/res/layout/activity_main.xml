@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.wdtx.littlebell.activity.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:background="@drawable/tab_bg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <com.wdtx.littlebell.view.ChangeColorIconWithText
+            android:id="@+id/id_cciwt_one"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            app:color="#ff45c01a"
+            app:textSize="12sp"
+            app:title="主页"
+            app:icon="@drawable/nav_1_"/>
+
+        <com.wdtx.littlebell.view.ChangeColorIconWithText
+            android:id="@+id/id_cciwt_two"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            app:color="#ff45c01a"
+            app:textSize="12sp"
+            app:title="文章"
+            app:icon="@drawable/nav_2_"/>
+
+        <com.wdtx.littlebell.view.ChangeColorIconWithText
+            android:id="@+id/id_cciwt_three"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            app:color="#ff45c01a"
+            app:textSize="12sp"
+            app:title="设置"
+            app:icon="@drawable/nav_3_"/>
+    </LinearLayout>
+</LinearLayout>

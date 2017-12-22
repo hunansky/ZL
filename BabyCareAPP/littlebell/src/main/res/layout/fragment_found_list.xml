@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fragment_found_list_bg"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:text="为什么你得学些TCP的知识"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/id_tv_time"
+        android:text="6月2日"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/id_iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/id_tv_summary"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#aaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:text="查看全文"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

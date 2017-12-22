@@ -1,0 +1,10 @@
+.\_build\max30100_beatdetector.o: max30100\MAX30100_BeatDetector.c
+.\_build\max30100_beatdetector.o: max30100\MAX30100_BeatDetector.h
+.\_build\max30100_beatdetector.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\max30100_beatdetector.o: ..\..\..\..\..\..\components\device\nrf52.h
+.\_build\max30100_beatdetector.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\_build\max30100_beatdetector.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\_build\max30100_beatdetector.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\_build\max30100_beatdetector.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\_build\max30100_beatdetector.o: ..\..\..\..\..\..\components\toolchain\system_nrf52.h
+.\_build\max30100_beatdetector.o: max30100\timer.h

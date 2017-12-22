@@ -1,0 +1,15 @@
+.\_build\timer.o: max30100\timer.c
+.\_build\timer.o: max30100\timer.h
+.\_build\timer.o: ..\..\..\..\..\..\components\device\nrf52.h
+.\_build\timer.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\_build\timer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\timer.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\_build\timer.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\_build\timer.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\_build\timer.o: ..\..\..\..\..\..\components\toolchain\system_nrf52.h
+.\_build\timer.o: ..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h
+.\_build\timer.o: ..\..\..\..\..\..\components\device\nrf.h
+.\_build\timer.o: ..\..\..\..\..\..\components\device\nrf52_bitfields.h
+.\_build\timer.o: ..\..\..\..\..\..\components\device\nrf51_to_nrf52.h
+.\_build\timer.o: ..\..\..\..\..\..\components\device\compiler_abstraction.h
+.\_build\timer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

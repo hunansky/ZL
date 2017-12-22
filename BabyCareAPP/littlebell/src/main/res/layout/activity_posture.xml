@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_posture"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wdtx.littlebell.activity.PostureActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <Spinner
+        android:gravity="center"
+        android:entries="@array/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"/>
+
+    <TextView
+        android:padding="8dp"
+        android:text="睡姿分析"
+        android:background="@color/grey_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <lecho.lib.hellocharts.view.PieChartView
+        android:id="@+id/pie_chart_view"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:padding="8dp"
+        android:text="睡姿记录"
+        android:background="@color/grey_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/id_lv_posture"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+</LinearLayout>

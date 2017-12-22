@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wdtx.littlebell.activity.UpdateActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="应用名：小铃铛\n版本号：1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="update"
+        android:background="@color/blue_600"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="已是最新版，无需更新"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
